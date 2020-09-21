@@ -309,7 +309,7 @@ codegen-units = 0
 
 # Sets the number of codegen units to build the standard library with,
 # regardless of what the codegen-unit setting for the rest of the compiler is.
-#codegen-units-std = 1
+codegen-units-std = 0
 
 # Whether or not debug assertions are enabled for the compiler and standard
 # library.
@@ -348,7 +348,7 @@ backtrace = true
 incremental = true
 
 # Build a    multi-threaded rustc
-parallel-compiler = false
+parallel-compiler = true
 
 # The default linker that will be hard-coded into the generated compiler for
 # targets that don't specify linker explicitly in their target specifications.
